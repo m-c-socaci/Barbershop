@@ -6,6 +6,7 @@
     <meta name="description" content="The Best Barbershop in Your City" />
     <meta name="keywords" content="Barbershop, Hair, Beard, Haircuts" />
 
+    <link rel="stylesheet" href="./css/style.css" />
     <title>BarberShop</title>
   </head>
   <body>
@@ -21,12 +22,20 @@
         <div>
           <ul>
             <li>
-              <a href="https://youtube.com" target="_blank" rel="noopener"
+              <a
+                class="social-media-link"
+                href="https://youtube.com"
+                target="_blank"
+                rel="noopener"
                 >Youtube</a
               >
             </li>
             <li>
-              <a href="https://instagram.com" target="_blank" rel="noopener"
+              <a
+                class="social-media-link"
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener"
                 >Instagram</a
               >
             </li>
@@ -35,21 +44,27 @@
         </div>
       </div>
       <!-- Hero content -->
-      <div>
+      <div class="hero-content">
         <!-- Header -->
         <header>
           <nav>
             <ul>
-              <li><a href="#about">About</a></li>
-              <li><a href="#prices">Services and Prices</a></li>
-              <li><a href="#barbers">Barbers</a></li>
-              <li><a href="#contacts">Contacts</a></li>
+              <li><a class="nav-about" href="#about">About</a></li>
+              <li>
+                <a class="nav-link" href="#prices">Services and Prices</a>
+              </li>
+              <li><a class="nav-link" href="#barbers">Barbers</a></li>
+              <li><a class="nav-link" href="#contacts">Contacts</a></li>
             </ul>
             <div>
               <address>
-                <a href="tel:+380441111111">+38 044 111 11 11</a>
+                <a class="address-phone-number" href="tel:+380441111111"
+                  >+38 044 111 11 11</a
+                >
               </address>
-              <button type="button">book a Service</button>
+              <button class="book-service-button" type="button">
+                book a Service
+              </button>
             </div>
           </nav>
         </header>
