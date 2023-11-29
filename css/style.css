@@ -121,7 +121,6 @@ ul {
   font-family: var(--header-font-family);
   font-size: 72px;
   font-style: normal;
-  font-weight: 700;
   line-height: normal;
   letter-spacing: 3.6px;
 }
@@ -130,7 +129,6 @@ ul {
   font-family: var(--header-font-family);
   font-size: 42px;
   font-style: normal;
-  font-weight: 700;
   line-height: normal;
   letter-spacing: 2.1px;
 }
@@ -174,4 +172,16 @@ ul {
   font-size: 14px;
   line-height: 185.714%;
   letter-spacing: 0.28px;
+}
+
+.services-and-prices {
+  /* TODO: replace with image background */
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
+
+.contact {
+  /* TODO: replace with image background */
+  background-color: var(--black-color);
+  color: var(--white-color);
 }
