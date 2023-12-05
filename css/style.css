@@ -11,6 +11,16 @@
 }
 
 /* Global styles */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
 body {
   font-family: var(--text-font-family);
 }
@@ -25,6 +35,10 @@ ul {
 
 /* Classes */
 
+.hero {
+  width: 1280px;
+  height: 680px;
+}
 .social-media-link {
   color: var(--black-color);
   font-size: 11px;
@@ -75,7 +89,9 @@ ul {
 
 .book-service-button {
   background: none;
-  border-color: var(--brand-color);
+  border-radius: 25px;
+  border: 1px solid var(--brand-color);
+  padding: 12px 24px;
 
   font-size: 12px;
   font-style: normal;
@@ -96,7 +112,8 @@ ul {
 
 .book-service-button:hover,
 .book-service-button:focus {
-  color: var(--brand-color);
+  color: var(--white-color);
+  background-color: var(--brand-color);
 }
 
 .subtitle {
@@ -113,7 +130,7 @@ ul {
 }
 
 .subtitle-light {
-  color: var(--subtitle-gray-color);
+  color: var(--gray-color);
 }
 
 .hero-header {
