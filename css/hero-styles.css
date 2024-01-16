@@ -64,15 +64,25 @@
   line-height: normal;
   letter-spacing: 1.1px;
 
+  width: 60px;
+
+  border: none;
+  padding: 0;
+
+  padding-bottom: 8px;
   cursor: pointer;
 }
 
 .hero-control-button-dark {
+  text-align: start;
   color: var(--gray-color);
+  border-bottom: 1px solid var(--gray-color);
 }
 
 .hero-control-button-light {
+  text-align: end;
   color: var(--white-color);
+  border-bottom: 1px solid var(--white-color);
 }
 
 .hero-social-media-element {
